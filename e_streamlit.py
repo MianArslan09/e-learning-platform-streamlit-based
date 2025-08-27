@@ -7,7 +7,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mian112215",
+        password="112215",
         database="elearning"
     )
 
@@ -310,3 +310,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
